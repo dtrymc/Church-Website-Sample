@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Church Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(to right, #4e54c8, #8f94fb);
+        }
+
+        nav a {
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        section {
+            padding: 60px 0;
+        }
+
+        section h2 {
+            margin-bottom: 20px;
+        }
+
+        section p, section ul {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background: linear-gradient(to right, #8f94fb, #4e54c8);
+            padding: 20px 0;
+        }
+
+        .hero {
+            background: url('https://example.com/church-bg.jpg') no-repeat center center/cover;
+            color: black;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-top: 20px;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header -->
+    <header class="text-white p-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">New Zealand Bible Baptist Church</h1>
+            <nav>
+                <a href="#home" class="mr-4">Home</a>
+                <a href="#about" class="mr-4">About Us</a>
+                <a href="#services" class="mr-4">Services</a>
+                <a href="#events" class="mr-4">Events</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="container mx-auto">
+            <h2 class="text-5xl font-bold">Welcome to Our Church</h2>
+            <p class="text-2xl mt-4">Join us for worship and fellowship.</p>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="bg-gray-200">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">About Us</h2>
+            <p class="text-lg">We are a community of believers committed to sharing the love of Jesus Christ. Our mission is to serve our community and grow in faith together.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Services</h2>
+            <p class="text-lg">Join us for our weekly services:</p>
+            <ul class="list-disc list-inside">
+                <li>Sunday Worship: 10:00 AM</li>
+                <li>Bible Study: Wednesday 7:00 PM</li>
+                <li>Prayer Meeting: Friday 7:00 PM</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="bg-gray-200">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Events</h2>
+            <p class="text-lg">Upcoming events at our church:</p>
+            <ul class="list-disc list-inside">
+                <li>Community Outreach: July 30, 2024</li>
+                <li>Youth Camp: August 15-18, 2024</li>
+                <li>Christmas Eve Service: December 24, 2024</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
+            <div class="contact-info">
+                <p class="text-lg">We'd love to hear from you. Reach out to us at:</p>
+                <p class="text-lg">Email: info@mychurch.com</p>
+                <p class="text-lg">Phone: (123) 456-7890</p>
+                <p class="text-lg">Address: 123 Church St, City, State, ZIP</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white text-center">
+        <p>&copy; 2024 My Church. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
